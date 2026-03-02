@@ -1,0 +1,6 @@
+id,employee_name,department,revenue,units_sold
+1,Alice,Engineering,15000,120
+2,Bob,Sales,,85
+3,Charlie,Sales,22000,
+4,David,Marketing,18000,150
+5,Eve,,10500,90
