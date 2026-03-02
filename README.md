@@ -28,13 +28,15 @@ ReAct agents require strict adherence to formatting and advanced multi-step reas
 ### 🚀 Local Deployment
 
 **1. Install Dependencies:**
-```bash
+```Bash
 pip install -r requirements.txt
-2. Pull the Quantized Engine (e.g., Llama 3.3 70B):
+```
+**2. Pull the Quantized Engine (e.g., Llama 3.3 70B):**
 
-Bash
+```Bash
 ollama pull llama3.3:70b
-3. Initialize the Agent Interface:
+```
+***3. Initialize the Agent Interface:***
 
-Bash
+```Bash
 streamlit run app/ui.py
