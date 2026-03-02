@@ -19,23 +19,22 @@ ReAct agents require strict adherence to formatting and advanced multi-step reas
 
 | Base Model | Minimum VRAM | Quantization | Performance Profile |
 | :--- | :--- | :--- | :--- |
-| **Llama 3.2 1B** | 2GB | 4-bit (GGUF) | Basic pipeline testing only. Expect frequent formatting failures. |
-| **Llama 3.2 3B** | 8GB | 4-bit (GGUF) | Light queries and entry-level reasoning. |
-| **Llama 3.1 8B** | 16GB | 4-bit (GGUF) | Standard performance. Recommended baseline for ReAct logic. |
-| **DeepSeek-R1 32B** | 32GB | 4-bit (GGUF) | Advanced reasoning and high data-extraction accuracy. |
+| **Llama 3.2 1B** | 2GB | Default 4-bit (GGUF) | Basic pipeline testing only. Expect frequent formatting failures. |
+| **Llama 3.2 3B** | 8GB | Default 4-bit (GGUF) | Light queries and entry-level reasoning. |
+| **Llama 3.1 8B** | 16GB | Default 4-bit (GGUF) | Standard performance. Recommended baseline for ReAct logic. |
+| **DeepSeek-R1 32B** | 32GB | Default 4-bit (GGUF) | Advanced reasoning and high data-extraction accuracy. |
+| **Llama 3.3 70B** | 64GB+ | Default 4-bit (GGUF) | Enterprise-grade accuracy. Flawless tool selection and formatting. |
 
 ### 🚀 Local Deployment
 
-1. **Install Dependencies:**
+**1. Install Dependencies:**
 ```bash
 pip install -r requirements.txt
-
-2. **Pull the Quantized Engine (e.g., Llama 3.1 8B):**
+2. Pull the Quantized Engine (e.g., Llama 3.3 70B):
 
 Bash
-ollama pull llama3.1:8b
-
-3. **Initialize the Agent Interface:**
+ollama pull llama3.3:70b
+3. Initialize the Agent Interface:
 
 Bash
 streamlit run app/ui.py
