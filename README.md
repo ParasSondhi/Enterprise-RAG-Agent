@@ -1,5 +1,8 @@
 # 🧠 Enterprise RAG & SQL Agent (Zero-Leakage Architecture)
 
+### Live Demonstration 
+**[🎥 Click here to watch the full Agent in action](https://drive.google.com/file/d/1Ib78egf57JLCYflITnxK3eL06--PIfZ4/view?usp=drive_link)**
+
 A privacy-first, fully local AI agent that combines **Retrieval-Augmented Generation (RAG)** with deterministic SQL querying. Built using a ReAct architecture, this agent dynamically routes user queries across unstructured PDFs and structured databases without exposing sensitive data to external cloud APIs.
 
 ### ⚙️ Core Engineering & Data Pipeline
