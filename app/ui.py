@@ -106,7 +106,7 @@ with st.sidebar:
                 BASE_DIR = os.path.dirname(os.path.abspath(__file__)) 
                 
                 # --- THE BULLETPROOF FIX ---
-                db_dir = os.path.join(BASE_DIR, "database")
+                db_dir = os.path.abspath(os.path.join(BASE_DIR, "..", "database"))
                 os.makedirs(db_dir, exist_ok=True) # Creates the folder if it's missing!
                 db_path = os.path.join(db_dir, "structured_data.db")
                 # ---------------------------
