@@ -41,7 +41,7 @@ ollama pull llama3.3:70b
 ```
  **Troubleshooting for Windows Users:** If you get an error saying 'ollama is not recognized as an internal or external command', ensure you have opened a fresh terminal after installing Ollama, or provide the direct path to your `ollama.exe` file.
  
-***3. Initialize the Agent Interface:***
+**3. Initialize the Agent Interface:**
 
 ```Bash
 streamlit run app/ui.py
